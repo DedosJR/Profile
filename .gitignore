@@ -1,0 +1,38 @@
+# --- Imágenes y Capturas ---
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# --- Credenciales y Secretos ---
+*.env
+*.pem
+*.key
+*.secret
+*.config_local*
+
+# --- Archivos de Virtualización (Proxmox/Docker) ---
+*.ova
+*.vmdk
+*.qcow2
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# --- Archivos de Logs y Temporales ---
+*.log
+*.tmp
+temp/
+node_modules/
+__pycache__/
+
+# --- Carpetas de IDE (VS Code, etc) ---
+.vscode/
+.idea/
+
+# --- Ansible ---
+inventory.ini
+hosts
+*.vars
+*.vault

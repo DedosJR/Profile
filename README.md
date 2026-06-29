@@ -170,8 +170,8 @@ enterprise-lab/
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/israel-flores/enterprise-lab.git
-cd enterprise-lab
+git clone https://github.com/example/example.git
+cd example
 
 # 2. Revisar y adaptar variables de entorno
 cp iac/terraform/terraform.tfvars.example iac/terraform/terraform.tfvars
